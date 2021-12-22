@@ -1,0 +1,39 @@
+.number {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	font-family: Roboto;
+
+	div {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	input {
+		padding: 0;
+		width: 75px;
+		height: 38px;
+		padding-left: 10px;
+		border: rgba(72, 72, 72, 0.2) solid 1px;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	span {
+		color: red;
+		font-size: 15px;
+		margin-top: 10px;
+		margin-left: 170px;
+	}
+
+	label {
+		color: #484848;
+		font-size: 15px;
+		letter-spacing: 0;
+		width: 150px;
+		margin-right: 20px;
+	}
+}

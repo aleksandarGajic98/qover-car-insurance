@@ -1,0 +1,18 @@
+.background {
+	background-image: url('../../assets/images/code-background.jpg');
+	background-size: cover;
+	height: 100%;
+}
+
+.mask {
+	background: linear-gradient(
+		122deg,
+		rgba(49, 123, 218, 0.5) -6%,
+		rgba(51, 195, 200, 0.5)
+	);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	min-height: calc(100vh - 80px);
+}

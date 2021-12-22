@@ -1,0 +1,9 @@
+export const PasswordLength = 5;
+export const AuthRoute = 'auth';
+export const BasicJwtExpirationTime = 900;
+export const InvalidEmailMessage = 'Invalid email';
+export const JwtSecret = 'qover-car-insurance-secret';
+export const KeepUserLoggedInJwtExpirationTime = 604800;
+export const InvalidPasswordMessage = 'Invalid password';
+export const UserNotFoundExceptionMessage = 'User not found';
+export const SignInErrorMessage = 'Invalid email and/or password';

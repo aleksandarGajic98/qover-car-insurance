@@ -1,0 +1,33 @@
+.form {
+	margin: 200px auto 0;
+	display: flex;
+	flex-direction: column;
+	width: 735px;
+	background-color: white;
+	border-radius: 2px;
+	box-shadow: 0 2px 4px 0 rgba(72, 72, 72, 0.5);
+	padding: 60px 0 0 200px;
+}
+
+.submit {
+	background-color: #31cfda;
+	color: white;
+	border-radius: 3px;
+	height: 50px;
+	width: 160px;
+	border-width: 0;
+	margin: 20px 0 60px 170px;
+	cursor: pointer;
+	font-family: Roboto;
+	font-weight: bold;
+}
+
+.submitWrapper {
+	display: flex;
+	direction: row;
+	align-items: center;
+}
+
+.loader {
+	margin: 20px 0 60px 20px;
+}

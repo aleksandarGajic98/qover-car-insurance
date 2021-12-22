@@ -1,0 +1,38 @@
+button {
+	border: none;
+	width: 303px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	font-style: normal;
+	text-align: center;
+	line-height: normal;
+	font-stretch: normal;
+	margin: 10px 10px 10px;
+	font-family: Roboto;
+	letter-spacing: normal;
+	cursor: pointer;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	.icon {
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+		background: transparent url('../../../assets//svgs/valid.svg') no-repeat;
+	}
+}
+
+.selected {
+	color: #31cfda;
+	background-color: #fff;
+}
+
+.unselected {
+	color: #fff;
+	background-color: #31cfda;
+}

@@ -1,0 +1,33 @@
+.underlined {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	font-family: Roboto;
+
+	div {
+		display: flex;
+		flex-direction: column;
+	}
+
+	span {
+		color: red;
+		font-size: 10px;
+		margin: 10px 0 20px;
+	}
+
+	input {
+		border-width: 0 0 1px 0;
+		border-color: #317bda;
+		height: 36px;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	label {
+		color: #5b7289;
+		font-size: 15px;
+		letter-spacing: 0;
+	}
+}

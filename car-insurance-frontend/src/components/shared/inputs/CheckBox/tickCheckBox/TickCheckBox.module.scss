@@ -1,0 +1,32 @@
+.ticked {
+	align-self: flex-start;
+	div {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	input {
+		appearance: none;
+		width: 18px;
+		height: 18px;
+		background: transparent url('../../../../../assets/svgs/unchecked.svg')
+			no-repeat 80% 50%;
+		cursor: pointer;
+		margin: 0;
+	}
+	input:checked {
+		background: transparent url('../../../../../assets/svgs/checked.svg') no-repeat
+			80% 50%;
+	}
+
+	span {
+	}
+
+	label {
+		font-family: Roboto;
+		color: #5b7289;
+		font-size: 12px;
+		letter-spacing: 0;
+		margin-left: 2px;
+	}
+}

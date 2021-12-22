@@ -1,0 +1,45 @@
+.outlined {
+	display: flex;
+	margin-bottom: 20px;
+
+	select {
+		width: 325px;
+		height: 40px;
+		border: rgba(72, 72, 72, 0.2) solid 1px;
+		border-radius: 2px;
+		-moz-appearance: none;
+		appearance: none;
+    background: url('../../../../../assets/svgs/icon-dropdown.svg') no-repeat;
+    background-position: calc(100% - 15px) center !important;
+    padding-left: 10px;
+	}
+
+	select:focus {
+		outline: none;
+	}
+
+	span {
+		color: red;
+		font-size: 15px;
+		margin-top: 10px;
+		font-family: Roboto;
+		align-self: flex-start;
+	}
+
+	div { 
+		display: flex;
+		flex-direction: column;
+	}
+
+	label {
+		height: 40px;
+		font-family: Roboto;
+		color: #484848;
+		font-size: 15px;
+		letter-spacing: 0;
+		width: 150px;
+		margin-right: 20px;
+		display: flex;
+		align-items: center;
+	}
+}
